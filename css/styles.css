@@ -1,0 +1,106 @@
+
+	* {	font-family:"Comic Sans MS", cursive, sans-serif;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+    .row{
+    	width: 90%;
+    	border: 5px;
+    	margin-right: auto;
+    	margin-left: auto;
+    	padding:5px;
+    }
+	h1 {
+		text-align: center;
+        font-size: 1.75em;
+        margin-bottom: auto;
+	}
+
+	h2 {
+    border: 2px solid black;
+    font-size: 1.25em;
+    text-align: center;
+    float:right;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+    width: 150px;
+    margin-bottom: auto;
+}
+
+ .titre{
+   	background-color: #8e8e8e;
+   	margin:10px;
+   	border:2px solid black;
+   }
+
+.under{
+	width:40%;
+   	float:right;
+   	border: 2px solid black;
+   	text-align: center;
+   	font-size: 125%;
+   	float:right;
+	}
+
+#chicken {
+    background-color:#cf8d8d;
+}
+
+#Beef {
+    color: white;
+    background-color: #b93c3b;
+}
+
+#Sushi {
+    background-color: #e1ca8d;;
+}
+
+
+row {
+	width: 93%;
+}
+
+.text{
+   	margin:10px;
+   	margin-top:40px;
+   }
+
+
+/****Large device Desktop ***/
+	@media (min-width: 992px) {
+	.col-lg-4 {
+	float: left;
+	background-color: white;
+	}
+	.col-lg-4 {
+	width: 33.33%;
+	}
+}
+
+/*** Medium device Tablette***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-3, .col-md-9 {
+	float: left;
+	background-color: white;
+	}
+	.col-md-3 {
+	width: 50%;	
+	}
+	.col-md-9 {
+		width: 100%;
+	}
+}
+
+/*** Small device Mobile***/
+@media (max-width: 767px) {
+	.col-sm-5 {
+	float: left;
+	background-color: white;
+	}
+	.col-sm-5 {
+	width: 100%;	
+	}
+}
